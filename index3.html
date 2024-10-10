@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style3.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>GeoRaiz</title>
+    <link rel="icon" href="geoimg.jpg" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <header id="home">
+      <nav>
+        <div class="nav__bar">
+          <div class="nav__logo"><a href="geoimg.jpg"><img src="geoimg.jpg" width="50" height="50">GeoRaiz</a></div>
+          <ul class="nav__links">
+            <li class="link"><a href="#section__header">Introdução</a></li>
+            <li class="link"><a href="#">Mapa Município </a></li>
+            <li class="link"><a href="#">Mapa Instituições</a></li>
+            <li class="link"><a href="#">Mapa Hierarquia</a></li>
+            <li class="link"><a href="">Galeria</a></li>
+            <li class="link search">
+            <button class="btn" onclick="window.open('', '_blank');">
+              Cadastrar <i class="ri-arrow-right-line"></i>
+            </button>
+              <span><i class="ri-search-line"></i></span>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="section__container header__container">
+        <h1>Rio de Janeiro</h1>
+        <h4>Metrópoles</h4>
+        <button class="btn">
+          Saiba Mais<i class="ri-arrow-right-line"></i>
+        </button>
+      </div>
+    </header>
+
+    <section class="about" id="about">
+      <div class="section__container about__container">
+        <div class="about__content">
+          <h2 class="section__header">Introdução</h2>
+          <p class="section__subheader">
+            A metrópole do Rio de Janeiro é uma das cidades mais importantes do Brasil, com grande influência histórica, cultural e econômica. Conhecida por sua relevância global em turismo e eventos, como o Carnaval e os Jogos Olímpicos, a cidade também é um importante centro de setores como petróleo e serviços. Apesar de suas belezas naturais, como o Cristo Redentor e o Pão de Açúcar, o Rio enfrenta desafios como desigualdade social e segurança pública, típicos dos grandes centros urbanos.
+          </p>
+          <div class="about__flex">
+            <div class="about__card">
+              <h4>1</h4>
+              <p>Capital</p>
+            </div>
+            <div class="about__card">
+              <h4>22</h4>
+              <p>Municípios</p>
+            </div>
+            <div class="about__card">
+              <h4>130+</h4>
+              <p>Instituições</p>
+            </div>
+          </div>
+          <button class="btn" onclick="window.open('https://www.metropoles.com/tag/rio-de-janeiro', '_blank');">
+            Leia mais<i class="ri-arrow-right-line"></i>
+          </button>
+        </div>
+        <div class="about__image">
+          <img src="geo3.jpg" alt="about" />
+        </div>
+      </div>
+    </section>
+
+    <section class="discover" id="discover">
+      <div class="section__container discover__container">
+        <h2 class="section__header">Alguns Municípios</h2>
+        <div class="discover__grid">
+          <div class="discover__card">
+            <div class="discover__image">
+              <img src="geo5.jpg"alt="discover" />
+            </div>
+            <div class="discover__card__content">
+              <h4>Rio de Janeiro</h4>
+              <p>
+                municipio do rj
+              </p>
+              <button class="discover__btn" onclick="window.open('https://brasilescola.uol.com.br/brasil/rio-janeiro.htm', '_blank');">
+                Saiba Mais <i class="ri-arrow-right-line"></i>
+              </button>
+            </div>
+          </div>
+          <div class="discover__card">
+            <div class="discover__image">
+              <img src="geo4.jpg" alt="discover" />
+            </div>
+            <div class="discover__card__content">
+              <h4>Cabo Frio</h4>
+              <p>
+                municipio do rj
+              </p>
+              <button class="discover__btn" onclick="window.open('https://pt.wikipedia.org/wiki/Cabo_Frio', '_blank');">
+                Saiba Mais <i class="ri-arrow-right-line"></i>
+              </button>
+            </div>
+          </div>
+          <div class="discover__card">
+            <div class="discover__image">
+              <img src="geo6.jpg" alt="discover" />
+            </div>
+            <div class="discover__card__content">
+              <h4 class="petro">Petropolis</h4>
+              <p>
+                municipio do rj
+              </p>
+              <button class="discover__btn" onclick="window.open('https://cidades.ibge.gov.br/brasil/rj/petropolis/historico');">
+                Saiba mais <i class="ri-arrow-right-line"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blogs" id="blog">
+      <div class="blogs__container">
+        <h2 class="section__header">Galeria de Fotos</h2>
+        <p class="section__subheader">Metrópoles!</p>
+        <div class="blogs__grid">
+          <div class="blogs__card">
+            <img src="geo7.jpg" alt="blog" />
+            <div class="blogs__content">
+              Rio de janeiro
+            </div>
+          </div>
+          <div class="blogs__card">
+            <img src="geo8.jpg" alt="blog" />
+            <div class="blogs__content">
+              São Gonçalo
+            </div>
+          </div>
+          <div class="blogs__card">
+            <img src="geo9.jpg" alt="blog" />
+            <div class="blogs__content">
+              Magaratiba
+            </div>
+          </div>
+          <div class="blogs__card">
+            <img src="geo11.jpg" alt="blog" />
+            <div class="blogs__content">
+              Duque de Caxias
+            </div>
+          </div>
+          <div class="blogs__card">
+            <img src="geo10.jpg" alt="blog" />
+            <div class="blogs__content">
+              ITAGUAÍ
+            </div>
+            </div>
+            <div class="blogs__card">
+              <img src="geo12.jpg" alt="blog" />
+              <div class="blogs__content">
+                NILÓPOLIS
+              </div>
+              </div>
+            <div class="blogs__card">
+              <img src="geo13.jpg" alt="blog" />
+              <div class="blogs__content">
+                  NOVA IGUAÇU
+              </div>
+              </div>
+            <div class="blogs__card">
+              <img src="geo14.jpg" alt="blog" />
+              <div class="blogs__content">
+                    Itaborai
+              </div>
+              </div>
+            <div class="blogs__card">
+              <img src="geo15.jpg" alt="blog" />
+              <div class="blogs__content">
+                      PARACAMBI
+              </div>
+              </div>
+              <div class="blogs__card">
+              <img src="geo16.jpg" alt="blog" />
+            <div class="blogs__content">
+                        PETRÓPOLIS
+              </div>
+              </div>
+            <div class="blogs__card">
+              <img src="geo17.jpg" alt="blog" />
+              <div class="blogs__content">
+                          SAO JOAO DE MERITI
+              </div>
+              </div>
+            <div class="blogs__card">
+              <img src="geo18.jpg" alt="blog" />
+              <div class="blogs__content">
+                            JAPERI
+              </div>
+              </div>
+            <div class="blogs__card">
+              <img src="geo19.jpg" alt="blog" />
+              <div class="blogs__content">
+                              QUEIMADOS
+              </div>
+              </div>
+            <div class="blogs__card">
+              <img src="geo20.jpg" alt="blog" />
+              <div class="blogs__content">
+                                BELFORD ROXO
+              </div>
+              </div>
+              <div class="blogs__card">
+              <img src="geo21.jpg" alt="blog" />
+            <div class="blogs__content">
+                                  GUAPIMIRIM
+              </div>
+              </div>
+            <div class="blogs__card">
+              <img src="geo22.jpg" alt="blog" />
+              <div class="blogs__content">
+                                    BOM JARDIM
+              </div>
+              </div>
+            <div class="blogs__card">
+              <img src="geo23.jpg" alt="blog" />
+              <div class="blogs__content">
+                                      NITERÓI
+              </div>
+              </div>
+            <div class="blogs__card">
+                                      <img src="geo24.jpg" alt="blog" />
+                                      <div class="blogs__content">
+                                        MARICÁ
+                                      </div>
+                                      </div>
+                                      <div class="blogs__card">
+                                        <img src="geo25.jpg" alt="blog" />
+                                        <div class="blogs__content">
+                                          MAGÉ
+                                        </div>
+                                        </div>
+                                        <div class="blogs__card">
+                                          <img src="geo26.jpg" alt="blog" />
+                                          <div class="blogs__content">
+                                            TERESÓPOLIS
+                                          </div>
+                                          </div>
+                                          <div class="blogs__card">
+                                            <img src="geo27.jpg" alt="blog" />
+                                            <div class="blogs__content">
+                                              SEROPÉDICA
+                                            </div>
+                                            </div>
+                                            <div class="blogs__card">
+                                              <img src="geo28.jpg" alt="blog" />
+                                              <div class="blogs__content">
+                                                TANGUÁ
+                                              </div>
+                                              </div>
+        </div>
+      </div>
+      <br/><br/>
+     <main>
+      <div class="mapa1">
+      <h1>Mapa dos Municípios Metropolitanos do Rio de Janeiro</h1>
+      <iframe class="border-animate" src="https://www.google.com/maps/d/embed?mid=1lZgmuQGNBaShSJQHYW6ckDxqrEfRT6M&hl=pt-BR&ehbc=2E312F" width="1280" height="500"></iframe>
+      <br/><br/>
+      <h1>Mapa das Instituições Superiores da Região Metropolitana do Rio de Janeiro</h1>
+      <iframe class="border-animate" src="https://www.google.com/maps/d/embed?mid=12tkFrqdud4Ey8F6hcurQ7a5rwQElZZA&hl=en&ehbc=2E312F" width="1280" height="500"></iframe>
+      <br/><br/>
+      <h1>Mapa da Hierarquia Urbana do Rio de Janeiro</h1>
+      <br/><br/><br/>
+      <iframe class="borderr" src="https://www.google.com/maps/d/embed?mid=1O8KjBr0MwUZqmtt0DprMIbJHGx2kH34&hl=pt-BR&ehbc=2E312F" width="1280" height="500"></iframe>
+      <div class="tabela">
+        <br/>
+        <h1>LEGENDA</h1>
+        <table>
+          <tr>
+            <th style="background-color: blueviolet;">Roxo</th>
+            <th>Centro econômica</th>
+          </tr>
+          <tr></tr>
+            <th style="background-color: rgb(255, 221, 0);">Amarelo</th>
+            <th>Cidades Satélites</th>
+          </tr>     
+          <tr></tr>
+            <th style="background-color: rgb(128, 6, 6);">Marrom</th>
+            <th>Cidades da Baixada Fluminense</th>
+          </tr>
+          <tr>
+            <th>Preto</th>
+            <th>Cidades Turísticas e de Natureza</th>
+          </tr>
+          <tr>
+            <th style="background-color: green;">Verde</th>
+            <th>Cidades rurais e de Ecoturismo</th>
+          </tr>
+          <tr>
+            <th style="background-color: blue;">Azul</th>
+            <th>Desenvolvimento Econômica-Pós Industriais</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+     </main>
+     <footer>
+      <div class="footerContainer"></div>
+        <div class="socialIcons">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://github.com/1IDS-TAMB-2024-SESI-SENAI/Equipe01"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <div class="footerNav">
+            <ul><li><a href="">inicio</a></li>
+                <li><a href="https://g1.globo.com/">Novas Notícias</a></li>
+                <li><a href="">Mais</a></li>
+                <li><a href="">Contato</a></li>
+            </ul>
+        </div>
+        
+    </div>
+    <div class="footerBottom">
+        <p>Copyright &copy;2024; Designed by GeoRaiz <span class="designer">GeoRaiz</span></p>
+    </div>
+     </footer>
+    </section>
+  </body>
+
+
+</html>
